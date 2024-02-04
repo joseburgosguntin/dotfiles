@@ -120,3 +120,11 @@ export NVM_DIR="$HOME/.nvm"
 
 # Created by `pipx` on 2024-01-29 05:42:32
 export PATH="$PATH:/home/joseburgosguntin/.local/bin"
+
+# pnpm
+export PNPM_HOME="/home/joseburgosguntin/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

@@ -4,7 +4,9 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 local opts = {
   sources = {
     null_ls.builtins.formatting.fourmolu,
-    null_ls.builtins.formatting.prettierd,
+    null_ls.builtins.formatting.prettierd.with({
+        extra_filetypes = { "svelte" },
+    }),
   },
   on_attach = function (client, bufnr)
     if client.supports_method("textDocument/formatting") then

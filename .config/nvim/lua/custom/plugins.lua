@@ -14,6 +14,7 @@ local plugins = {
         "tailwindcss-language-server",
         "prettierd",
         "css-lsp",
+        "svelte-language-server",
       }
     }
   },
@@ -40,6 +41,7 @@ local plugins = {
         "css",
         "sql",
         "markdown",
+        "svelte",
       }
       return opts
     end,

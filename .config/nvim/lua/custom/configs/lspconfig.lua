@@ -1,5 +1,5 @@
 local base = require "plugins.configs.lspconfig"
-local on_attach = base.on_attach 
+local on_attach = base.on_attach
 local capabilities = base.capabilities
 local lspconfig = require "lspconfig"
 local util = require "lspconfig/util"
@@ -18,7 +18,13 @@ lspconfig.rust_analyzer.setup({
   }
 })
 
-local servers = {"hls", "tsserver", "tailwindcss", "cssls"}
+local servers = {
+  "hls",
+  "tsserver",
+  "tailwindcss",
+  "cssls",
+  "svelte",
+}
 
 for _, lsp  in ipairs(servers) do
   lspconfig[lsp].setup {

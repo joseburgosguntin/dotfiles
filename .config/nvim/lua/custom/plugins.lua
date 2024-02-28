@@ -38,7 +38,6 @@ local plugins = {
         "haskell",
         "javascript",
         "typescript",
-        "jsx",
         "tsx",
         "css",
         "sql",

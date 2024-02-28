@@ -7,6 +7,7 @@ local opts = {
     null_ls.builtins.formatting.prettierd.with({
         extra_filetypes = { "svelte" },
     }),
+    null_ls.builtins.formatting.clang_format,
   },
   on_attach = function (client, bufnr)
     if client.supports_method("textDocument/formatting") then

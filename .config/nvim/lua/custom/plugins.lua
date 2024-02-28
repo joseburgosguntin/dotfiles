@@ -15,6 +15,8 @@ local plugins = {
         "prettierd",
         "css-lsp",
         "svelte-language-server",
+        "clangd",
+        "clang-format",
       }
     }
   },

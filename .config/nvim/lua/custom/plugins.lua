@@ -17,6 +17,7 @@ local plugins = {
         "svelte-language-server",
         "clangd",
         "clang-format",
+        "gleam",
       }
     }
   },
@@ -43,6 +44,7 @@ local plugins = {
         "sql",
         "markdown",
         "svelte",
+        "gleam",
       }
       return opts
     end,

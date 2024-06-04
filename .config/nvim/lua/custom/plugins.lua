@@ -17,7 +17,6 @@ local plugins = {
         "svelte-language-server",
         "clangd",
         "clang-format",
-        "gleam",
       }
     }
   },

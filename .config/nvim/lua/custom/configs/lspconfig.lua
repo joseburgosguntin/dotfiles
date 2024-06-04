@@ -18,6 +18,14 @@ lspconfig.rust_analyzer.setup({
   }
 })
 
+lspconfig.gleam.setup {
+  cmd = { "gleam", "lsp" },
+  filetypes = { "gleam" },
+  -- root_dir = lspconfig.util.root_pattern("gleam.toml"),
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+
 local servers = {
   "hls",
   "tsserver",
@@ -25,7 +33,6 @@ local servers = {
   "cssls",
   "svelte",
   "clangd",
-  "gleam",
 }
 
 for _, lsp  in ipairs(servers) do

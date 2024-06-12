@@ -130,3 +130,4 @@ esac
 # pnpm end
 
 export PATH=/home/joseburgosguntin/.cache/rebar3/bin:$PATH
+alias odin="~/dev/odin/odin/odin"

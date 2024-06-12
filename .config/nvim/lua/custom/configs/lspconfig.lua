@@ -33,6 +33,7 @@ local servers = {
   "cssls",
   "svelte",
   "clangd",
+  "ols",
 }
 
 for _, lsp  in ipairs(servers) do

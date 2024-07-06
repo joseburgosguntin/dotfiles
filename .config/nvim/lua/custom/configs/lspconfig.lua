@@ -34,6 +34,7 @@ local servers = {
   "svelte",
   "clangd",
   "ols",
+  "basedpyright",
 }
 
 for _, lsp  in ipairs(servers) do

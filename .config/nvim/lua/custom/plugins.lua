@@ -18,6 +18,8 @@ local plugins = {
         "clangd",
         "clang-format",
         "ols",
+        "black",
+        "basedpyrigth",
       }
     }
   },

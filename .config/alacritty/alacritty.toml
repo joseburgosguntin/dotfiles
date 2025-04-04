@@ -1,0 +1,37 @@
+[env]
+term = "xterm-256color"
+
+[window]
+startup_mode = "Fullscreen"
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+size = 14.0
+
+# Tokyo Dark Theme
+
+[colors.primary]
+background = "#11121D"
+foreground = "#ABB2BF"
+# selectionBackground = "#21222D"
+# cursorColor = "#FFFFFF"
+
+[colors.normal]
+black = "#1B1C27"
+blue = "#95C561"
+cyan = "#7199EE"
+green = "#DFAE67"
+magenta = "#A485DD"
+red = "#EE6D75"
+white = "#ABB2BF"
+yellow = "#DFAE67"
+
+[colors.bright]
+black = "#1B1C27"
+blue = "#95C561"
+cyan = "#7199EE"
+green = "#DFAE67"
+magenta = "#A485DD"
+red = "#EE6D75"
+white = "#ABB2BF"
+yellow = "#DFAE67"
